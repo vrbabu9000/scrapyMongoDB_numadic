@@ -8,3 +8,16 @@
 - This was a rush work and I couldnt pay much attention to the UI.
 - It works just fine. However, it is slow since I couldnt play around much with the inbuilt cache functions.
 - Many tweeks could be done to speed up the process. 
+
+## Navigation:
+- In this project, there are 3 windows:
+##### HOME:
+- This window shows the newsfeed of scraped data. You can scroll down to see the newsfeed. From the navigation bar you can navigate to the other two windows.
+##### Scraped Data:
+- Scraped data stored in MongoDB is called and converted to Pandas DataFrame. The Dataframe is visible in this Window.
+##### Search Data:
+- The user can search for news using keywords in the keyboard box.
+
+## Deployment:
+- The application was built in streamlit and deployed using heroku.
+- https://scrapynumadic.herokuapp.com/
